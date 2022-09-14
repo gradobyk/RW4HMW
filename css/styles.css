@@ -1,11 +1,29 @@
+:root {
+	--body-color: #EDEBF7;
+	--second-color: #7a6bc5;
+
+}
+
+.container-top {
+	background: var(--second-color);
+	color: white;
+	text-align: left;
+	padding-left: 20px;
+	font-size: 20px;
+}
+
+.myFoto {
+	width: 600px;
+}
+
 h1 {
-	color: blueviolet;
+	color: var(--second-color);
 	
 	text-align: center;
 	margin-top: 20px;
 }
 
-h3 {
+.i-am {
 	text-align: center;
 	opacity: 0.6;
 }
@@ -15,9 +33,21 @@ h3 {
 }
 
 .container {
-	margin-top: 450px;
+	margin-top: 550px;
 	color: blueviolet;	
 	font-size: 30px;
+}
+
+.container-1 {
+margin-top: 80px;
+position: absolute;
+height: 400px;
+left: 0%;
+right: 0%;
+top: 0px;
+
+background: var(--body-color);
+border-radius: 0px;
 }
 
 
