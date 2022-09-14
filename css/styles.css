@@ -58,7 +58,6 @@ body {
 }
 
 
-
 .myFoto {
 	margin-top: 20px;
 	margin-left: 10px;
@@ -79,8 +78,6 @@ h1 {
 	text-align: center;
 	opacity: 0.6;
 }
-
-
 
 .container-1 {
 display: block;
@@ -109,6 +106,29 @@ border-radius: var(--box-shadow);
 .cosial {
 	font-size: 24px;
 	color: var(--second-color);
+}
+
+@media (max-width: 576px) {
+
+	.button3,
+	.button1,
+	.button2 {
+		width: 100px;
+		margin-top: 20px;
+	}
+	
+	.myFoto {
+		width: 400px;
+		height: 300px;
+		display: block;
+		margin-top: -30px;
+		margin-left: 60px;
+	}
+	.container-1 {
+		height: 100%;
+	}
+
+
 }
 
 
