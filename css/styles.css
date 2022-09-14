@@ -118,12 +118,12 @@ border-radius: var(--box-shadow);
 	}
 	
 	.myFoto {
-		
+		display: block;
 		width: 80%;
 		height: 100%;
 		
 		margin-top: -30px;
-		margin-left: 50px;
+		margin-left: 45px;
 	}
 	.container-1 {
 		height: 100%;
