@@ -97,10 +97,10 @@ border-radius: var(--box-shadow);
 }
 
 .container-cosial {
-	margin-top: 60px;
+	margin-top: 80px;
 	color: var(--second-color);	
 	font-size: 30px;
-	margin-bottom: 30px;
+	margin-bottom: 85px;
 }
 
 .cosial {
@@ -128,7 +128,13 @@ border-radius: var(--box-shadow);
 	.container-1 {
 		height: 100%;
 	}
+}
 
+
+
+.container-about {
+
+	padding: 40px;
 
 }
 
