@@ -1,19 +1,23 @@
 :root {
 	--body-color: #EDEBF7;
 	--second-color: #7a6bc5;
-
+	--box-shadow: 10px;
 }
 
 .container-top {
 	background: var(--second-color);
 	color: white;
-	text-align: left;
-	padding-left: 20px;
-	font-size: 20px;
+	text-align: center;
+	padding: 10px 10px;
+	font-size: 16px;
+	border-radius: var(--box-shadow);
+	
 }
 
 .myFoto {
-	width: 600px;
+	margin-top: 30px;
+	width: 500px;
+	border-radius: var(--box-shadow);
 }
 
 h1 {
@@ -28,26 +32,30 @@ h1 {
 	opacity: 0.6;
 }
 
+
+
+.container-1 {
+display: block;
+margin-top: 60px;
+height: 400px;
+width: 100%;
+background: var(--body-color);
+border-radius: var(--box-shadow);
+}
+
 #underl {
    text-decoration: underline;
 }
 
-.container {
-	margin-top: 550px;
-	color: blueviolet;	
-	font-size: 30px;
+.hello {
+	padding: 30px 30px;
 }
 
-.container-1 {
-margin-top: 80px;
-position: absolute;
-height: 400px;
-left: 0%;
-right: 0%;
-top: 0px;
-
-background: var(--body-color);
-border-radius: 0px;
+.container {
+	margin-top: 80px;
+	color: var(--second-color);	
+	font-size: 30px;
+	margin-bottom: 30px;
 }
 
 
