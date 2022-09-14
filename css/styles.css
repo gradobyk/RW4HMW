@@ -4,6 +4,10 @@
 	--box-shadow: 10px;
 }
 
+body {
+	font-family: 'Roboto';
+}
+
 .container-top {
 	background: var(--second-color);
 	color: white;
@@ -47,7 +51,7 @@ border-radius: var(--box-shadow);
 }
 
 #underl {
-   text-decoration: underline;
+   font-weight: bold;
 }
 
 .hello {
@@ -61,5 +65,9 @@ border-radius: var(--box-shadow);
 	margin-bottom: 30px;
 }
 
+.cosial {
+	font-size: 24px;
+	color: var(--second-color);
+}
 
 

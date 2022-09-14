@@ -1,2 +1,2 @@
-//https://www.figma.com/file/Xuhnz0epw7yExBAbw8F1Wa/Diagram---Beautico?node-id=11%3A44
+//https://www.figma.com/file/d6KqB91zCVn92g2ZzNQiQx/Beautico?node-id=11%3A2
 
