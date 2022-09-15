@@ -128,6 +128,15 @@ border-radius: var(--box-shadow);
 	.container-1 {
 		height: 100%;
 	}
+
+	.head-project {
+		text-align: center;
+	}
+
+	.description {
+		padding: 20px;
+	}
+
 }
 
 
