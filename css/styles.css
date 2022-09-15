@@ -181,6 +181,9 @@ border-radius: var(--box-shadow);
 .icon {
 	width: 80px;
 }
+.icon-2 {
+	margin-left: 20px;
+}
 
 .icon-3 {
 	width: 65px;
