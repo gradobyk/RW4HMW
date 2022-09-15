@@ -135,6 +135,8 @@ border-radius: var(--box-shadow);
 	color: var(--second-color);
 }
 
+
+
 @media (max-width: 576px) {
 
 	.button3,
@@ -173,6 +175,14 @@ border-radius: var(--box-shadow);
 
 	padding: 40px;
 
+}
+
+.icon {
+	width: 100px;
+}
+
+.icon-3 {
+	width: 85px;
 }
 
 .contact-text {
