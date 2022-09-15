@@ -97,9 +97,7 @@ border-radius: var(--box-shadow);
 	padding: 30px 30px;
 }
 
-.launch-button {
-	text-align: center;
-}
+
 
 .launch {
 	border: 1px solid var(--second-color);
@@ -160,6 +158,10 @@ border-radius: var(--box-shadow);
 	.description {
 		padding: 20px;
 	}
+
+	.launch-button {
+	text-align: center;
+}
 
 }
 
