@@ -97,7 +97,16 @@ border-radius: var(--box-shadow);
 	padding: 30px 30px;
 }
 
+.image-pro {
+		width: 500px;
+		border-radius: 10px;
+		margin-left: 40px;
+	}
 
+.description-full {
+	margin-left: 40px;
+	margin-right: 20px;
+}
 
 .launch {
 	border: 1px solid var(--second-color);
@@ -113,10 +122,6 @@ border-radius: var(--box-shadow);
 	color: white;
 	text-decoration: none;
 }
-
-
-
-
 
 .container-cosial {
 	margin-top: 80px;
@@ -142,15 +147,14 @@ border-radius: var(--box-shadow);
 	.myFoto {
 		display: block;
 		width: 80%;
-		height: 100%;
-		
+		height: 100%;		
 		margin-top: -30px;
 		margin-left: 45px;
 	}
 	.container-1 {
 		height: 100%;
 	}
-
+	
 	.head-project {
 		text-align: center;
 	}
@@ -164,8 +168,6 @@ border-radius: var(--box-shadow);
 }
 
 }
-
-
 
 .container-about {
 
