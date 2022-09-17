@@ -71,11 +71,10 @@ border-radius: var(--box-shadow);
 
 
 .myFoto {
-	margin-top: 20px;
-	margin-left: 10px;
-	width: 500px;
+	margin-top: 10px;
+	margin-left: 80px;
+	width: 380px;
 	border-radius: var(--box-shadow);
-    height: 360px;
 
 }
 
@@ -140,6 +139,45 @@ border-radius: var(--box-shadow);
 	text-decoration: none;
 }
 
+@media (max-width: 768px) {
+	.container-button {
+		margin-top: 10px;
+	}
+	.button3,
+	.button1,
+	.button2 {
+		width: 100px;
+		margin-top: 20px;
+	}
+
+	.myFoto {
+		margin-top: 5px;
+		margin-right: 20px;
+		margin-left: 0;
+	}
+
+	.hello {
+		margin-right: -20px;
+	}
+
+	.container-about-began {
+		height: 100%;
+		width: 100%;
+	}
+	
+	.head-project {
+		text-align: center;
+	}
+
+	.description {
+		padding: 20px;
+	}
+
+	.launch-button {
+	text-align: center;
+}
+
+}
 
 
 
