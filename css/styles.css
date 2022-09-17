@@ -9,7 +9,18 @@ body {
 	margin-left: 10px;
 }
 
-.container-top {
+.container-about-began {
+display: block;
+margin-top: 10px;
+height: 400px;
+width: 100%;
+background: var(--body-color);
+border-radius: var(--box-shadow);
+
+}
+
+
+.container-project {
 	background: var(--second-color);
 	color: white;
 	text-align: center;
@@ -18,7 +29,7 @@ body {
 	border-radius: var(--box-shadow);	
 }
 
-.container3 {
+.container-button {
 	margin-top: 10px;
 }
 
@@ -68,29 +79,20 @@ body {
 
 }
 
-h1 {
+.name {
 	color: var(--second-color);
 	
 	text-align: center;
 	margin-top: 20px;
 }
 
-.i-am {
+.front-end {
 	text-align: center;
 	opacity: 0.6;
 }
 
-.container-1 {
-display: block;
-margin-top: 10px;
-height: 400px;
-width: 100%;
-background: var(--body-color);
-border-radius: var(--box-shadow);
 
-}
-
-#underl {
+#name-full {
    font-weight: bold;
 }
 
@@ -98,7 +100,21 @@ border-radius: var(--box-shadow);
 	padding: 30px 30px;
 }
 
-.image-pro {
+
+.container-cosial {
+	margin-top: 80px;
+	color: var(--second-color);	
+	font-size: 30px;
+	margin-bottom: 85px;
+}
+
+.cosial {
+	font-size: 24px;
+	color: var(--second-color);
+}
+
+
+.image-project {
 		width: 500px;
 		border-radius: 10px;
 		margin-left: 40px;
@@ -124,17 +140,6 @@ border-radius: var(--box-shadow);
 	text-decoration: none;
 }
 
-.container-cosial {
-	margin-top: 80px;
-	color: var(--second-color);	
-	font-size: 30px;
-	margin-bottom: 85px;
-}
-
-.cosial {
-	font-size: 24px;
-	color: var(--second-color);
-}
 
 
 
@@ -154,7 +159,7 @@ border-radius: var(--box-shadow);
 		margin-top: -30px;
 		margin-left: 45px;
 	}
-	.container-1 {
+	.container-about-began {
 		height: 100%;
 	}
 	
